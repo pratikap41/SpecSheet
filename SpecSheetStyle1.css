@@ -1,0 +1,393 @@
+body {
+    
+font-size: 25px;
+    font-family: georgia;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+
+}
+
+
+#top{
+    background: url(7.jpg);
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+
+}
+#sideBar{
+    padding: 0px ;
+    margin: 0px;
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    left: -350px;
+    background-color: black;
+    overflow-y: scroll;
+    z-index: 50;
+}
+
+#sidebar::-webkit-scrollbar{
+    display: none;
+}
+
+#sideBar:hover{
+    opacity: 1.0;
+}
+
+#sideBar .sideBarLabel {
+    color: grey;
+    font-size: 50%;
+    border-bottom: grey 1px groove;
+    border-top: grey 1px groove;
+    margin: 0px ;
+    margin-top: 40px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+#sideBar .sideBarElement{
+    margin: 0px;
+    padding: 20px 40px;
+    border-bottom: 0.5px rgb(17, 17, 17) solid;
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 70%;
+    font-weight:light;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.815);
+}
+
+#sideBar ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    
+    
+}
+
+
+#sideBar .sideBarElement:hover{
+    background-color: #00c4dc;
+    color: black;
+    font-weight: bold;
+    
+}
+
+#sideBar .sideBarUtility {
+    font-size: 60%;
+    font-weight: lighter;
+    color: grey;
+    margin: 20px; 
+    text-decoration: none;
+}
+#sideBar .sideBarUtility:hover{
+    color: white;
+}
+
+#hammenu {
+    margin: 0px;
+    padding: 5px 0px;
+    width: 40px;
+    position : absolute;
+    top: 6px;
+    left: 0px;
+}
+
+#hammenu span {
+    background-color: whitesmoke;
+    display: block;
+    height: 4px;
+    width: 24px ;
+    margin: 7px 0px;
+}
+
+#hammenu2 {
+    margin: 0px;
+    padding: 0px 0px;
+    width: 23px;
+    
+    position : absolute;
+    top: 6px;
+    left: 0px;
+    visibility: hidden;
+    background-color: black;
+    border-radius : 2px;
+    
+}
+
+#hammenu2 span {
+    background-color: #00c4dc;
+    display: block;
+    height: 4px;
+    width: 23px ;
+    margin: 4px 0px;
+
+}
+
+#nav {
+    padding: 0px;
+    margin: 0px;
+    height: 70px;
+    width: 100%;
+}
+
+#logobar{
+    
+    padding: 0 px ;
+    margin: 0px;
+    list-style: none;
+    
+}
+
+#topbar-options{
+    margin: 0px ;
+    display: inline;
+    float: right;
+    
+    
+    
+}
+
+#topbar-options li{
+    margin: 0px;
+    margin-right: 10px;
+    padding: 0px;
+    display: inline;
+   
+}
+
+#topbar-options li a{
+    font-weight: light;
+    font-size: 70%;
+    padding : 20px;
+   color: white;
+    text-decoration:  none;
+    vertical-align: center;
+}
+
+#topbar-options li a:hover{
+    background-color: white;
+    color: black ;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+#title{
+    display: inline;
+    font-size: 2em;
+    font-weight: bolder;
+    margin-left: 10px;
+    padding: 10px;
+    
+    font-style: italic;
+    font-family: cursive , georgia, default;
+}
+
+#menu {
+    
+    height: 30px;
+}
+
+#menu ul{
+    list-style: none;
+    
+}
+
+#menu ul li{
+    display: inline;
+}
+
+#menu ul li a{
+    font-weight: normal;
+    color: white;
+    font-size: 85%;
+    text-decoration: none;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-right: white 1px solid;
+}
+
+#menu ul li a:hover{
+    color: #00c4dc;
+
+}
+
+
+
+
+
+
+#description{
+    margin-left: 30px;
+    margin-bottom: 0px;
+    font-weight: bolder;
+    font-weight: 900;
+    font-size: 200%;
+    font-family: helvetica;
+
+}
+
+#cards{
+   
+    text-align: center;
+    vertical-align: middle;
+    
+  
+}
+
+.card{ 
+   margin: 10px;
+   margin-bottom: 30px;
+    height: 300px ;
+    width: 280px;
+    border: white 3px solid;
+    border-radius: 10px;
+    display: inline-block;
+   
+    
+}
+
+.card:hover{
+   
+    color: black;
+    background-color: white;
+    opacity: 0.8;
+    
+}
+
+.card_title{
+    text-align: left;
+    font-size: 140;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.card_detail{
+    text-align: left;
+    font-size: 80%;
+    font-weight: light;
+    margin: 20px;
+
+}
+
+#mid{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+#context_cards{
+   
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    
+    
+   
+    
+}
+
+.context_card {
+    border: grey 0.5px groove ;
+    margin: 20px;
+    margin-top: 20px;
+    display: inline-block;
+   
+    height: 225px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+#c1{
+    margin-left: 16%; 
+    background: url(mate2.png) ;
+    transition: all 0.5s ease-in;
+}
+#c2{
+    background: url(ipad.png) ;
+    transition: all 0.5s ease-in;
+}
+#c3{
+    margin-left:16%;
+    background: url(mac.jpg) ;
+    transition: all 0.5s ease-in;
+}
+#c4{
+    background: url(s20.jpg);
+    transition: all 0.5s ease-in;
+}
+#c1:hover{
+    background: url(matea.jpg) ;
+    
+
+}
+#c2:hover{
+    background: url(ipada.jpg) ;
+
+}
+#c3:hover{
+   
+    background: url(maca.jpg) ;
+
+}
+#c4:hover{
+    background: url(s20a.jpg);
+    
+
+}
+
+.context_card:hover{
+    opacity: 0.7;
+   
+}
+
+#footer{ 
+    margin: 0px;
+    background-color: black;
+    margin-top: 120px;
+    margin-bottom: 30px;
+    padding: 0px;
+    width: 100%;
+   
+    text-align: center;
+    vertical-align: top;
+    
+}
+   
+
+#footer ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+#footer ul li{
+    padding:    0px ;
+    margin: 0px;
+    display: inline;
+}
+#footer ul li a{
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: arial,default;
+    font-weight: lighter;
+    font-size: 60%;
+    color: white;
+}
+
+#footer ul li a:hover{
+    color: yellow;
+}
+
+#copyright {
+    font-size: 50%;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+}
